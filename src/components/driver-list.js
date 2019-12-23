@@ -41,7 +41,7 @@ export default function SimpleMenu(props) {
       <option value="Abdel">Abdelghani</option>
       <option value="Simo">Simo</option>
       <option value="logout">Ahmed</option>
-      <option value="logout">Abdel</option>
+      <option value="logout">Hamza</option>
 
     </select>
   )
