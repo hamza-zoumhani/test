@@ -17,6 +17,7 @@ export default function SimpleMenu(props) {
 
   return (
     <select onChange={event => props.selectItem(event.target.value)}>
+      <option value="Choose Driver...">Driss</option>
       <option value="Driss">Driss</option>
       <option value="Moe">Mohsine</option>
       <option value="Abdel">Abdelghani</option>
