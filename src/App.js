@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <AppBar position="static" style={styles}>
-				<h1>Deliveries</h1>
+				<h1>Delivery Page</h1>
       </AppBar>
       <button className="btn btn-small btn-primary"></button>
       <Deliveries />
