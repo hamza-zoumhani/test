@@ -1,7 +1,6 @@
 import React from 'react'
 import Dlist from './Dlist'
 import AddDelivery from './AddDelivery'
-import Search from './Search'
 import { Button } from '@material-ui/core'
 
 class Deliveries extends React.Component {
@@ -62,7 +61,6 @@ class Deliveries extends React.Component {
 		return (
 			<>
 				<AddDelivery addDeliveryItem={this.addDeliveryItem} />
-				<Search updateFilter={this.updateFilter} />
 				<Dlist id="list" items={visible} showButton={true} buttonRender={this.renderButton} />
 			</>
 		)
