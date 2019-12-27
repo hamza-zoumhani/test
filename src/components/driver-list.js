@@ -17,13 +17,14 @@ export default function SimpleMenu(props) {
 
   return (
     <select onChange={event => props.selectItem(event.target.value)}>
-      <option value="Choose Driver...">Driss</option>
+      <option value="none">Choose Driver...</option>
       <option value="Driss">Driss</option>
-      <option value="Moe">Mohsine</option>
-      <option value="Abdel">Abdelghani</option>
+      <option value="Hamza">Hamza</option>
+      <option value="Mohsine">Mohsine</option>
+      <option value="Abdelghani">Abdelghani</option>
       <option value="Simo">Simo</option>
-      <option value="logout">Ahmed</option>
-      <option value="logout">Hamza</option>
+      <option value="Ahmed">Ahmed</option>
+      <option value="Ouzenou">Ouzenou</option>
 
     </select>
   )
