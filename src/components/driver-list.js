@@ -15,25 +15,6 @@ export default function SimpleMenu(props) {
     props.selectItem(event.target.name)
   };
 
-  // return (
-  //   <div>
-  //     <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-  //       Open Menu
-  //     </Button>
-  //     <Menu
-  //       id="simple-menu"
-  //       anchorEl={anchorEl}
-  //       keepMounted
-  //       open={Boolean(anchorEl)}
-  //       onClose={handleClose}
-  //     >
-  //       <MenuItem name="profile" onClick={handleClose}>Profile</MenuItem>
-  //       <MenuItem name="account" onClick={handleClose}>My account</MenuItem>
-  //       <MenuItem name="logout" onClick={handleClose}>Logout</MenuItem>
-  //     </Menu>
-  //   </div>
-  // );
-
   return (
     <select onChange={event => props.selectItem(event.target.value)}>
       <option value="Driss">Driss</option>

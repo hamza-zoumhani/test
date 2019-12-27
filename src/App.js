@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Todos from './todos/Todos'
+import Deliveries from './componentss/Deliveries'
 import AppBar from '@material-ui/core/AppBar';
 
 const styles = {
@@ -14,7 +14,7 @@ function App() {
 				<h1>Deliveries</h1>
       </AppBar>
       <button className="btn btn-small btn-primary"></button>
-      <Todos />
+      <Deliveries />
     </div>
   );
 }
